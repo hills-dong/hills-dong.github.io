@@ -1,4 +1,4 @@
-baseURL = 'https://hills-dong.github.io/'
+baseURL = 'https://blog.klib.cn/'
 languageCode = 'en-us'
 title = "Hills' Blog"
 theme = "hugo-toigian"
