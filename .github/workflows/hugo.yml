@@ -41,7 +41,10 @@ jobs:
           node-version: '20'
 
       - name: Install theme dependencies
-        run: cd themes/hugo-toigian && npm install
+        run: |
+          cd themes/hugo-toigian && npm install
+          cd ../..
+          ln -s themes/hugo-toigian/node_modules node_modules
 
       - name: Setup Pages
         id: pages
